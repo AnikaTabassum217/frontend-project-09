@@ -16,9 +16,23 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <!-- Google Font - inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Google font  - manrope   -->
     <style>
         .font-poppins {
             font-family: "Poppins", serif;
+        }
+        .font-inter{
+            font-family: "Inter", serif;
+        }
+        .font-manrope{
+            font-family: "Manrope", serif;
         }
     </style>
     <script>
@@ -296,9 +310,9 @@
                 <div class="flex flex-col justify-between items-center gap-2">
                     <div class="collapse collapse-arrow border border-[#D5E5FB]">
                         <input type="radio" name="my-accordion-2" checked="checked" />
-                        <div class="collapse-title text-xl font-medium">What are the most important things I should
+                        <div class="collapse-title text-xl font-medium font-inter">What are the most important things I should
                             know about riding a bike?</div>
-                        <div class="collapse-content">
+                        <div class="collapse-content font-inter">
                             <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
                                 laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will
                                 help you be a more focused and legally compliant bike rider. </p>
@@ -306,9 +320,9 @@
                     </div>
                     <div class="collapse collapse-arrow border border-[#D5E5FB]">
                         <input type="radio" name="my-accordion-2" />
-                        <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a
+                        <div class="collapse-title text-xl font-medium font-inter">How can I tell if my helmet is old and I need a
                             new one?</div>
-                        <div class="collapse-content">
+                        <div class="collapse-content font-inter">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos dolor impedit ipsa incidunt
                                 quam? Officia, quo a dolores sit, veniam perferendis rem illo quam saepe maiores ipsa ex
                                 ratione sint.</p>
@@ -316,9 +330,9 @@
                     </div>
                     <div class="collapse collapse-arrow border border-[#D5E5FB]">
                         <input type="radio" name="my-accordion-2" />
-                        <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?
+                        <div class="collapse-title text-xl font-medium font-inter">My bike has been in storage is it safe to ride?
                         </div>
-                        <div class="collapse-content">
+                        <div class="collapse-content font-inter">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptatem cupiditate
                                 porro sint sit animi consequuntur expedita quod, maxime iste iusto sunt asperiores ipsam
                                 hic commodi, quisquam, eos blanditiis tenetur!</p>
@@ -326,9 +340,9 @@
                     </div>
                     <div class="collapse collapse-arrow border border-[#D5E5FB]">
                         <input type="radio" name="my-accordion-2" />
-                        <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?
+                        <div class="collapse-title text-xl font-medium font-inter">What rules should I follow when riding my bike?
                         </div>
-                        <div class="collapse-content">
+                        <div class="collapse-content font-inter">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, magnam vero. Incidunt
                                 fugiat error ipsam. Fuga harum porro et unde suscipit esse adipisci incidunt, odit,
                                 officiis cupiditate id similique exercitationem? </p>
@@ -338,8 +352,33 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="w-full bg-black mt-10 lg:mt-20 font-manrope">
+         <div class="py-14 px-20">
+            <div class="flex flex-col lg:flex-row justify-between ">
+               <div>
+                <div class=" flex justify-start gap-6 items-center">
+                    <p class="text-base font-normal text-white">Download Now</p>
+                    <p class="text-base font-normal text-white">License</p>
+                </div>
+                    <div class="flex flex-wrap justify-start gap-6 items-center mt-2">
+                        <p class="text-base font-normal text-white">About</p>
+                        <p class="text-base font-normal text-white">Features</p>
+                        <p class="text-base font-normal text-white">Pricing</p>
+                        <p class="text-base font-normal text-white">Careers</p>
+                        <p class="text-base font-normal text-white">Help</p>
+                        <p class="text-base font-normal text-white">Privacy Policy</p>
+                     </div>
+               </div>
 
+                <div class="flex flex-col gap-4 mt-4 lg:mt-0">
+                    <div class="text-white text-base font-medium">Get the App</div>
+                    <img class="w-1/2" src="./images/others/android.png" alt="">
+                    <img class="w-1/2" src="./images/others/ios.png" alt="">
+                </div>        
+            </div>
+            <div class="text-white flex justify-center lg:justify-start items-center mt-6">
+                © 2020 bike. All rights reserved</div>
+         </div>
     </footer>
 </body>
 
